@@ -1,0 +1,77 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+}
+.page{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	
+}
+.startGame{
+	background-color: skyblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+}
+.startGame button{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 0 10px 20px #ccc;
+	background: salmon;
+	border: none;
+	color: #fff;
+	border-radius: 10px;
+}
+.gamimg{
+	background: #efefef;
+	z-index: 0;
+}
+.gamimg h3{
+	text-align: center;
+	padding: 0 10px;
+}
+.gamimg h4{
+	text-align: center;
+	margin-top: 20px;
+}
+.gamimg h4 span{
+	color: red;
+}
+.gamimg ul li{
+	list-style: none;
+}
+.gamimg .option{
+	padding: 10px 20px;
+}
+
+.endGame{
+	background-image: url(../img/shenli.jpg);
+	color: orangered;
+	text-align: center;
+	
+}
+.endGame button{
+	margin-top: 180px;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 0 10px 20px #ccc;
+	background: salmon;
+	border: none;
+	color: #fff;
+	border-radius: 10px;
+}
